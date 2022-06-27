@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat','Courier New', Courier, monospace; 
+    background-color: black;   
+}
+
+h1 {
+    font-size: 15vmin; 
+}
+
+.mobile-tap-area {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 60px;       
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.home__hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.hero-social {
+    position: fixed;
+    top: 200px;
+    left: 0px;    
+}
+
+.fa-linkedin:hover {
+    color: #0072b1;
+}
+
+.fa-github-square:hover {
+    color:rgb(98, 97, 97);
+}
+
+.fa-envelope:hover {
+    color: rgb(184, 13, 13);
+}
+
+.hero__info {    
+    /* width: 30%; */
+    margin-top: 60px;
+    font-size: 16vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    margin-bottom: 0;
+    font-weight: 700;
+    
+}
+
+.fa-brands {
+    font-size: 60px;
+}
+
+.fa-solid {
+    font-size:52px;
+}
+
+.hide__info:hover span {
+    display: none;
+}
+
+.hi:hover:before,
+.im:hover:before, 
+.orhan:hover:before{
+    content: "About"; 
+    color:red;    
+    cursor: pointer;
+}
+
+
+.im:hover:before{
+    content: "Works";         
+}
+
+.orhan:hover:before {
+    content: "Contact";
+}
+
+.text_red {
+    color:red;
+}
+
+a,a:before,a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+.hero__title {       
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 12vmin;
+    letter-spacing: 0;
+    /* transform: translate(0px); */
+    font-weight: 800; 
+    margin-bottom: 10px;         
+}
+
+.hero__hover {    
+    display: inline-block;
+    letter-spacing: -.355em; 
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+    color: rgb(136, 136, 136);
+    transition: color .06s;    
+}
+
+
+
+.hover-green:hover {
+    color:#33ffbd;
+    
+}
+.hover-yellow:hover {
+    color: #f9f876;
+}
+
+.hover-blue:hover {
+    
+    color: #A9FFF7;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.dont-show{
+    display:none;
+}
+
+
+@media  screen and (max-width: 767px){
+
+    
+    .tap-here{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        margin: auto;
+        background-color: crimson;
+        border-radius: 5px;
+        height: 40px;
+        color: white;
+        font-size: 17px;        
+    }
+    a:hover{
+        color: red;
+    }
+
+    .hero__title {
+        display: flex;
+        font-size: 8vmin;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
