@@ -1,0 +1,127 @@
+body {
+    font-family: 'Montserrat','Courier New', Courier, monospace;
+    background-color: black;  
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 3.8rem;
+    letter-spacing: -3px;
+    line-height: 80px;
+    color: whitesmoke;
+}
+
+h2 span {
+    background-color: red;
+
+}
+
+.about-desc {
+    font-size: 1.7rem;
+    line-height: 45px;
+    letter-spacing: -.01em;
+
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    /* font-size: 4vmin;     */
+    padding: 15px;
+    
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;   
+    font-size: 50px;
+    width: 75%;
+    margin-top: 20px;  
+}
+
+.home-btn {
+    color: red;
+    right: 50px;
+    top: 50px;
+    position:absolute;
+    font-size: 30px;
+}
+
+.home-btn:hover {
+    color: white;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+.fa-react:hover{
+    color: #61dbfb;   
+}
+
+.fa-js-square:hover{
+    color: yellow;
+}
+
+.fa-css3-alt:hover{
+    color: #2965f1;
+}
+
+.fa-html5:hover{
+    color: #df5828;
+}
+
+.fa-bootstrap:hover{
+    color: #563d7c ;
+}
+
+.fa-python:hover{
+    color: yellow;
+}
+
+@media screen and (max-width: 700px) { 
+
+    h2{
+        font-size: 2.5rem ;
+        letter-spacing: 0.5px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .home-btn {
+        top: 10px;
+        right: 10px;
+    }
+
+    .about-desc{
+        display: flex;
+        text-align: center;
+
+    }
+
+    .skills{
+        font-size: 40px;
+        
+    }
+
+    .fa-brands {
+        padding: 10px;
+    }
+
+
+}
