@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat','Courier New', Courier, monospace;  
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.container-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1024px;
+    width: 100%;
+    background-color: black;
+    margin: 10px auto;
+
+}
+
+/* .nav-logo {
+    position:absolute;
+    top: 20px;
+    left: 10px;
+} */
+
+h2 {
+    color: red;
+    font-size: 10vmin;
+    text-align: center;
+}
+
+.works-info p {
+    font-size: 6vmin;
+    color:darkgray;
+    text-align: center;
+}
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 10px; */
+    font-size: 3vmin;
+    color:rgb(177, 169, 169);
+    
+}
+
+.languages li {
+    margin:40px;
+    list-style-type: none;
+}
+
+.languages li:hover {
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.works{
+    display: flex;
+    flex-wrap: wrap;    
+    background-color: black;
+}
+
+.work {
+    flex: 1 1 350px;    
+    margin: 20px;
+    height: 300px;   
+    color:black;
+    text-align: center;
+    display: none;    
+}
+
+.work img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 5px;     
+}
+
+.works-info p {
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.home-btn {
+    color: red;
+    right: 50px;
+    top: 50px;
+    position:absolute;
+    font-size: 30px;
+}
+
+.home-btn:hover {
+    color: white;
+}
+
+.btn {
+    outline: none;
+    border:none;
+    background-color: transparent;
+    color: rgb(201, 199, 199);
+    padding: 7px;
+    font-size: 20px;
+    margin: 30px;
+    
+}
+
+.btn:hover{
+    color: aliceblue;
+    cursor: pointer;    
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.active{
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+figure {
+    margin: 1rem;
+    position: relative;
+    
+}
+figure figcaption {
+    background: rgba(219, 214, 214, 0.8);
+    bottom: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    /* -webkit-transition: max-height 0.3s ease-out; */
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 20px;
+        
+}
+figure p {
+    margin-top: 60px;
+}
+.works img {
+    width: 100%;
+    height: 300px;
+    object-fit: fit;
+}
+
+figcaption a {
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid black;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding:10px;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+figcaption a:hover{
+    background: rgb(210, 205, 205);    
+    color: black;
+    font-weight: 700;    
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 701px) {
+figure {
+        width: calc(50% - 2rem);
+}
+figure figcaption {
+        height: 50px;
+}
+figure:hover figcaption {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        transition: height 0.5s ease-in;
+}
+figure:hover p {
+        opacity: 1;
+        -webkit-transition: opacity 0.5s ease-in 0.6s;
+        -moz-transition: opacity 0.5s ease-in 0.6s;
+        -ms-transition: opacity 0.5s ease-in 0.6s;
+        transition: opacity 0.5s ease-in 0.6s;
+        
+}
+figure p {
+        opacity: 0;
+}
+}
+@media screen and (max-width: 700px) {
+figure {
+        width: 100%;
+}
+p {
+        opacity: 1;
+}
+figcaption {
+        height: 50px;
+}
+figure:hover figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: height 0.5s ease-in;
+}
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+    .home-btn {
+        top: 10px;
+        right: 10px;
+    }
+
+    .btn{
+        margin: 30px 20px;
+        
+    }
+
+
+}
