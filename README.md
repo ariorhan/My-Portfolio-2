@@ -1,4 +1,6 @@
 # My-Portfolio
+This is my current portfolio website. I'd like to improve these projects.
+
 ![Screenshot 2022-07-24 at 21-29-21 Orhan ARI](https://user-images.githubusercontent.com/66368354/180664746-90c72c29-2528-42ef-9417-a707f5d747b7.png)
 
 ![Screenshot 2022-07-24 213320](https://user-images.githubusercontent.com/66368354/180664857-67253ebc-e696-45af-bca4-31f2207e9206.jpg)
