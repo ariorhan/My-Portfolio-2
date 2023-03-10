@@ -1,4 +1,3 @@
-   
 function changeText() {
     var x = document.querySelector('.hero__info');
     var y = document.querySelector('.mobile-tap-area');
@@ -7,6 +6,5 @@ function changeText() {
     y.classList.toggle('dont-show')
 
 }
-
-
+    
 

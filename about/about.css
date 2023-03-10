@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /*overflow: hidden;*/
 }
 
 .container-about {
@@ -14,6 +15,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: -20px;
+    
 }
 
 h2 {
@@ -21,6 +24,7 @@ h2 {
     letter-spacing: -3px;
     line-height: 80px;
     color: whitesmoke;
+    margin-top: -10px;
 }
 
 h2 span {
