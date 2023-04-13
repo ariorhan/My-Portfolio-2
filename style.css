@@ -53,6 +53,10 @@ h1 {
     color: crimson;
 }
 
+.fa-blog:hover {
+    color: rgba(255, 162, 0, 0.948);
+}
+
 .hero__info {    
      /*width: 30%; */
     /*margin-top: 60px;*/
