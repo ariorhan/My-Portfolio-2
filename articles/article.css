@@ -230,10 +230,10 @@
     color: var(--foreground-secondary);
   }
   
-  .dark-theme .blog-topic:hover {
+  /* .dark-theme .blog-topic:hover {
     background: var(--foreground-primary);
     color: var(--action-primary);
-  }
+  } */
   
   .dark-theme .load-more:hover { color: var(--white); }
   
@@ -418,17 +418,17 @@
   
   .blog-topic {
     background: var(--action-secondary);
-    color: var(--foreground-secondary);
+    color: var(--foreground-primary);
     font-weight: 600;
     padding: 0.25rem 1rem;
     border-radius: 5px;
     margin-bottom: 1rem;
   }
   
-  .blog-topic:hover {
+  /* .blog-topic:hover {
     background: var(--foreground-secondary);
     color: var(--action-secondary);
-  }
+  } */
   
   .blog-card .h3 {
     line-height: 1.4;
@@ -654,20 +654,6 @@
       border-radius: 5px;
     }
   
-    .blog-text,
-    .profile-wrapper { display: block; }
-  
-    .blog-text {
-      color: var(--foreground-secondary);
-      font-size: var(--fs-4);
-      display: -webkit-box;
-      line-clamp: 3;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      margin-bottom: 1rem;
-    }
-  
     .blog .wrapper-flex {
       display:         flex;
       justify-content: start;
@@ -824,7 +810,7 @@
      * HERO 
      */
   
-    .hero { text-align: left; }
+    .hero { text-align: justify; }
   
     .hero .container {
       display: flex;
@@ -832,35 +818,7 @@
       align-items: center;
       gap: 50px;
     }
-  
-    /* .hero .btn-group {
-      justify-content: start;
-      gap: 30px;
-    } */
-  
-    /* .hero .right {
-      display:         flex;
-      justify-content: space-around;
-      align-items:     flex-end;
-    } */
-  
-  
-    .hero .img-box {
-        display: flex;
-        justify-content: center; 
-    }
-  
-    .hero-img {
-      width:  40%;
-      height: 40%;
-      object-fit: contain;
-      
-    }
-  
-   
-  
-  
-  
+ 
     /**
      * MAIN 
      */
@@ -931,102 +889,7 @@
       color: var(--foreground-secondary);
       font-weight: 700;
     }
-  
-    .tags { margin-bottom: 3rem; }
-  
-    .tags .wrapper {
-      display:   flex;
-      flex-wrap: wrap;
-      gap: 0.2rem;
-    }
-  
-    .tags .hashtag {
-      background: var(--action-primary);
-      color: var(--foreground-secondary);
-      padding: 5px 10px;
-      font-size: var(--fs-5);
-      font-weight: 700;
-      border-radius: 5px;
-    }
-  
-    .tags .hashtag:hover {
-      background: var(--foreground-secondary);
-      color: var(--action-primary);
-    }
-  
-    .contact { margin-bottom: 3rem; }
-  
-    .contact p {
-      color: var(--foreground-secondary);
-      margin-bottom: 1rem;
-    }
-  
-    .social-link {
-      display:         flex;
-      justify-content: center;
-      align-items:     center;
-      gap: 10px;
-    }
-  
-    .social-link .icon-box {
-      width:  45px;
-      height: 45px;
-      background: var(--action-secondary);
-      border-radius: 50%;
-      display:         flex;
-      justify-content: center;
-      align-items:     center;
-      font-size: 22px;
-    }
-  
-    .social-link .discord { color: hsl(235, 86%, 65%); }
-  
-    .social-link .twitter { color: hsl(203, 89%, 53%); }
-  
-    .social-link .facebook { color: hsl(220, 46%, 48%); }
-    
-    .social-link .icon-box:hover {
-      background: var(--accent);
-      color: var(--white);
-    }
-  
-    .newsletter {
-      position: sticky;
-      top: 3rem;
-      margin-bottom: 98px;
-    }
-  
-    .newsletter p {
-      color: var(--foreground-secondary);
-      margin-bottom: 1rem;
-    }
-  
-    .newsletter input {
-      border: none;
-      background: var(--action-primary);
-      display: block;
-      width: 100%;
-      padding: 0.5rem 1rem;
-      font: inherit;
-      color: var(--foreground-secondary);
-      border-radius: 5px;
-      margin-bottom: 1rem;
-    }
-  
-    .newsletter input::placeholder { color: inherit; }
-  
-    .newsletter input:focus {
-      outline: 2px solid;
-      outline-offset: 0;
-    }
-  
-    .newsletter .btn-primary {
-      margin-inline: auto;
-      margin: auto; /* fallback for margin-inline */
-    }
-  
-  
-  
+   
     /**
      * FOOTER 
      */

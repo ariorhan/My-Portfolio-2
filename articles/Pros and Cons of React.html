@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800;900&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="article.css">
+    <title>Blog</title>
+</head>
+<body class="dark-theme">
+    <header>
+
+        <div class="container">
+          <nav class="navbar">
+    
+            <a href="/index.html">
+              <img src="/images/new_red_logo.jpg" alt="Orhan's logo" width="150" height="60" class="logo-light">
+              <img src="/images/new_red_logo.jpg" alt="Orhan's logo" width="150" height="60" class="logo-dark">
+            </a>
+    
+            <div class="btn-group">
+    
+              <button class="theme-btn theme-btn-mobile dark">
+                <ion-icon name="moon" class="moon"></ion-icon>
+                <ion-icon name="sunny" class="sun"></ion-icon>
+              </button>
+    
+              <button class="nav-menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+              </button>
+    
+            </div>
+    
+            <div class="flex-wrapper">
+    
+              <ul class="desktop-nav">
+                <li>
+                  <a href="/index.html" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                  <a href="/blog/blog.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                  <a href="/contact/contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+    
+              <button class="theme-btn theme-btn-desktop dark">
+                <ion-icon name="moon" class="moon"></ion-icon>
+                <ion-icon name="sunny" class="sun"></ion-icon>
+              </button>
+    
+            </div>
+    
+            <div class="mobile-nav">
+    
+              <button class="nav-close-btn">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+    
+              <div class="wrapper">
+    
+                <p class="h3 nav-title">Main Menu</p>
+    
+                <ul>
+                  <li class="nav-item">
+                    <a href="/index.html" class="nav-link">Portfolio</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="/contact/contact.html" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p class="h3 nav-title">Topics</p>
+    
+                <ul>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">ReactJS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">JavaScript</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">TypeScript</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <main>
+        <!--
+          - #HERO SECTION
+        -->
+        <div class="hero">
+          <div class="container">
+            <div class="left">
+              <h1 class="h1">
+                Pros and Cons of ReactJS
+              </h1>
+            </div>    
+            <!-- <div class="">            
+                <div class="img-box">
+                    <img src="/images/Orhan.png" alt="Orhan ARI" class="hero-img">
+                </div>            
+            </div> -->
+          </div>
+        </div>
+    
+    
+        <div class="main">
+          <div class="container">
+            <!--
+              - BLOG SECTION
+            -->
+    
+            <div class="blog">                    
+                  <div class="blog-content-wrapper">       
+    
+                    <p class="blog-topic">
+                        ReactJS is a popular front-end development library created and maintained by Facebook. It has gained a lot of popularity in recent years due to its high performance and reusability. However, like any other technology, it has its own set of pros and cons. In this article, we'll take a closer look at the advantages and disadvantages of ReactJS.
+
+                    Pros of ReactJS
+
+                    Reusability: ReactJS allows developers to reuse components, which saves time and effort. Components can be easily shared across different projects, making it easier to maintain and update code.
+
+                    Performance: ReactJS is known for its high performance. It uses a virtual DOM (Document Object Model) that reduces the number of manipulations needed to update the user interface. This results in faster rendering and improved performance.
+
+                    SEO-Friendly: ReactJS provides server-side rendering, which means that search engines can easily crawl and index the content. This improves the website's SEO (Search Engine Optimization) and visibility in search results.
+
+                    Flexibility: ReactJS is highly flexible and can be used with a variety of other libraries and frameworks. This makes it easier to integrate ReactJS into existing projects or to start new projects from scratch.
+
+                    Large Community: ReactJS has a large and active community of developers. This means that developers can easily find answers to their questions, share their knowledge, and collaborate on projects.
+
+                    Cons of ReactJS
+
+                    Steep Learning Curve: ReactJS has a steep learning curve, especially for developers who are new to JavaScript. It requires a good understanding of JavaScript, as well as some knowledge of HTML and CSS.
+
+                    JSX Syntax: ReactJS uses JSX syntax, which can be confusing for developers who are used to writing plain HTML. JSX allows developers to write HTML-like syntax in their JavaScript code, which can be difficult to read and understand.
+
+                    Dependency Management: ReactJS requires the use of additional tools and libraries, such as Babel and Webpack, to manage dependencies and build the project. This can be overwhelming for new developers.
+
+                    Large Size: ReactJS is a relatively large library, which can increase the load time of the website. This can be problematic for websites that need to load quickly, especially on mobile devices.
+
+                    Not Fully Featured: ReactJS is a library, not a full-fledged framework. This means that developers need to use additional libraries and tools to handle tasks such as routing and state management.
+
+                    Conclusion
+
+                    ReactJS is a powerful and popular library for front-end development. It offers many advantages, such as reusability, performance, and flexibility. However, it also has some drawbacks, such as a steep learning curve and the need for additional tools and libraries. As with any technology, it's important to weigh the pros and cons and choose the right tool for the job.
+                    </p>    
+                </div> 
+                <button class="blog-topic text-tiny">ReactJS</button>                
+            </div>    
+        
+<!--             
+              - ASIDE
+            -->
+    
+            <div class="aside">    
+              <div class="topics">    
+                <h2 class="h2">Other Articles</h2>
+
+                <a href="#" class="topic-btn">  
+                  <p>React JS</p>
+                </a>
+    
+                <a href="#" class="topic-btn">
+                  <p>JavaScript</p>
+                </a>
+    
+                <a href="#" class="topic-btn">
+                  <p>TypeScript</p>
+                </a>  
+                  
+              </div>    
+            </div>
+        </div>
+      </main>
+    <script src="articles.js"></script>
+</body>
