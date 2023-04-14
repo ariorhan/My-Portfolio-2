@@ -216,9 +216,6 @@
   .btn-secondary:hover { border-color: var(--accent); }
   
   
-  
-  
-  
   /*-----------------------------------*\ 
     #Extra style for dark theme
   \*-----------------------------------*/
@@ -238,9 +235,7 @@
   .dark-theme .load-more:hover { color: var(--white); }
   
   .dark-theme .aside .h2 { color: var(--foreground-primary); }
-  
-  
-  
+   
   
   /*-----------------------------------*\ 
     #HEADER
@@ -255,7 +250,7 @@
     justify-content: space-between;
     align-items:     center;
     gap: 15px;
-    padding: 15px 0;
+    padding: 10px 0;
   }
   
   .logo-light,
@@ -347,13 +342,13 @@
   
   .hero {
     background: var(--background-primary);
-    padding-top:    2rem;
+    padding-top:    1rem;
     padding-bottom: var(--py);
     text-align: center;
   }
   
   .hero .h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     line-height: 1.6;
   }
   
