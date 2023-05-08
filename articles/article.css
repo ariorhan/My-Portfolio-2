@@ -1,16 +1,4 @@
 /*-----------------------------------*\ 
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\ 
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
@@ -223,8 +211,8 @@
   .dark-theme .btn-primary:hover { color: var(--background-primary); }
   
   .dark-theme .blog-topic {
-    background: var(--action-primary);
     color: var(--foreground-secondary);
+    border: solid 
   }
   
   /* .dark-theme .blog-topic:hover {
@@ -232,8 +220,7 @@
     color: var(--action-primary);
   } */
   
-  .dark-theme .load-more:hover { color: var(--white); }
-  
+  .dark-theme .load-more:hover { color: var(--white); }  
   .dark-theme .aside .h2 { color: var(--foreground-primary); }
    
   
@@ -370,10 +357,7 @@
     text-align: center;
   }
   
-  .hero .right { display: none; }
-  
-  
-  
+  .hero .right { display: none; } 
   
   
   /*-----------------------------------*\ 
@@ -412,8 +396,6 @@
   .blog-content-wrapper { padding: 10px 5px; }
   
   .blog-topic {
-    background: var(--action-secondary);
-    color: var(--foreground-primary);
     font-weight: 600;
     padding: 0.25rem 1rem;
     border-radius: 5px;
@@ -797,15 +779,13 @@
       z-index: 2;
     }
   
-    .theme-btn-desktop.dark::before { left: calc(100% - 24px); }
-  
-  
+    .theme-btn-desktop.dark::before { left: calc(100% - 24px); } 
   
     /**
      * HERO 
      */
   
-    .hero { text-align: justify; }
+    .hero { text-align: left; }
   
     .hero .container {
       display: flex;
